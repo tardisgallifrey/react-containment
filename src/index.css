@@ -1,0 +1,40 @@
+article {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+/* This works for now, but is clunky */
+
+.left {
+  width:50%;
+  height:50%;
+  position:absolute;
+  left:0;
+  top:0;
+} 
+
+.right {
+  width:50%;
+  height:50%;
+  position:absolute;
+  left: 100%;
+  top:0;
+}
+.bottom {
+  width:100%;
+  height: 50%;
+  position:absolute;
+  left:0;
+  top:50%;
+}
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
